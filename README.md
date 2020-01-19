@@ -1,7 +1,6 @@
 ﻿# EventLandingPage
 Pekerjaan ini masi WORK IN PROGRESS
 
-Penambahan yang akan dimasukkan antara lain:\n
-Integrasi dengan Firebase\n
-Automated Generated Whatsapp Message\n
+Penambahan yang akan dimasukkan antara lain: Integrasi dengan Firebase,
+Automated Generated Whatsapp Message, 
 Bot Whatsapp(Coming Soon!)
