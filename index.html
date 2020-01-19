@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Premio Events</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        html, body{
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        p{
+            font-size: 14pt;
+        }
+
+        label{
+            font-size: 12pt;
+        }
+
+        .jumbotron{
+            margin-bottom: 0 !important;
+            margin-left: -35% !important;
+            height: 385px;
+            background: lightseagreen url("background.jpg") no-repeat;
+        }
+
+        .card-header{
+            height: 50% !important;
+            padding:4% !important;
+        }
+
+        .konten{
+            padding: 1%;
+           
+        }
+
+        .konten-pertama{
+            background-color: yellowgreen;
+            margin-top: 0 !important;
+        }   
+
+        .konten-kedua{
+            background-color: greenyellow;
+        }
+
+        .konten-ketiga{
+            background-color: lightgreen;
+        }
+
+
+        @media only screen and (max-width: 1800px) {
+            .jumbotron{
+                margin-bottom: 0 !important;
+                margin-left: -10% !important;
+                height: 385px;
+                background: lightseagreen url("background.jpg") no-repeat;
+            }
+        }
+
+        @media only screen and (max-width: 1290px) {
+            .jumbotron{
+                margin-bottom: 0 !important;
+                margin-left: -2% !important;
+                height: 385px;
+                background: lightseagreen url("background.jpg") no-repeat;
+            }            
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .jumbotron{
+                margin-bottom: 0 !important;
+                margin-left: 0 !important;
+                height: 630px;
+                background: lightseagreen url("background.jpg") no-repeat;
+            }            
+        }
+    </style>
+
+
+</head>
+  <body>
+    <div class="jumbotron jumbotron-fluid" id="beranda">
+        <div class="container text-left">
+            <h1 class="display-3">Premio Events</h1>
+            <p class="lead">One Stop Solution For High School Event Organizing</p>
+            <hr class="my-2">
+            <p>Ada Rencana Buat Event?</p>
+            <p class="lead">
+                <button class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#modelId" role="button">Klik Di Sini</button>
+            </p>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title">Form Event</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                            <div class="container">
+                                <form action="post">
+                                    <h4>Event Untuk</h4>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" name="" id="" value="checkedValue"> Sweet 17
+                                        </label>
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" name="" id="" value="checkedValue"> Bazaar & Pentas Seni
+                                        </label>
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" name="" id="" value="checkedValue"> Prom Nite
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="">Nama Lengkap</label>
+                                      <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                                      <small id="helpId" class="text-muted">*Wajib Diisi</small>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="">Email</label>
+                                      <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                                      <small id="emailHelpId" class="form-text text-muted">*Wajib Diisi</small>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="">Phone Number</label>
+                                      <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                                      <small id="helpId" class="text-muted">*Wajib Diisi</small>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+<!--Content-->
+    <div id="accordianId" role="tablist" aria-multiselectable="true">
+        <div class="card  konten-pertama">
+            <div class="card-header" role="tab" id="layananHeaderId">
+                <h2 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordianId" href="#layananContentId" aria-expanded="true" aria-controls="layananContentId">
+              Layanan Kami
+            </a>
+                </h2>
+            </div>
+            <div id="layananContentId" class="collapse in" role="tabpanel" aria-labelledby="layananHeaderId">
+                <div class="card-body konten-pertama">
+                    <div class="container-fluid konten" id="layanan">
+                        <div class="container d-flex flex-row inside layanan-content collapse" id="layananContent">
+                            <div class="container" id="textLayanan">
+                                <h5 >Event Organizing</h5>
+                                <p>Fugiat irure pariatur elit in adipisicing. Mollit veniam do culpa Lorem est. Eiusmod sit do aute ut proident qui do nisi voluptate fugiat ex laborum ex. Mollit exercitation labore irure aliqua fugiat excepteur aliqua quis excepteur irure do. Amet elit laboris adipisicing incididunt non aliqua sint et adipisicing. Mollit commodo dolor eiusmod deserunt in aliqua quis labore cillum irure.</p>
+                            </div>
+                            <div class="container" id="textLayanan">
+                                <h5>Various F&B</h5>
+                                <p>
+                                    Fugiat irure pariatur elit in adipisicing. Mollit veniam do culpa Lorem est. Eiusmod sit do aute ut proident qui do nisi voluptate fugiat ex laborum ex. Mollit exercitation labore irure aliqua fugiat excepteur aliqua quis excepteur irure do. Amet elit laboris adipisicing incididunt non aliqua sint et adipisicing. Mollit commodo dolor eiusmod deserunt in aliqua quis labore cillum irure.
+                                </p>
+                            </div>
+                            <div class="container" id="textLayanan">
+                                <h5>Gigs From Famous Band</h5>
+                                <p>
+                                    Fugiat irure pariatur elit in adipisicing. Mollit veniam do culpa Lorem est. Eiusmod sit do aute ut proident qui do nisi voluptate fugiat ex laborum ex. Mollit exercitation labore irure aliqua fugiat excepteur aliqua quis excepteur irure do. Amet elit laboris adipisicing incididunt non aliqua sint et adipisicing. Mollit commodo dolor eiusmod deserunt in aliqua quis labore cillum irure.
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card konten-kedua">
+            <div class="card-header" role="tab" id="tentangHeaderId">
+                <h2 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordianId" href="#tentangContentId" aria-expanded="true" aria-controls="tentangContentId">
+              Tentang Kami
+            </a>
+                </h2>
+            </div>
+            <div id="tentangContentId" class="collapse in" role="tabpanel" aria-labelledby="tentangHeaderId">
+                <div class="card-body konten-kedua">
+                    <div class="container-fluid konten " id="tentang">
+                        <div class="container paragraphs-about inside" id="tentang-content">
+                            <p>Cillum quis veniam do do labore excepteur enim nisi cupidatat excepteur commodo ex laborum. Voluptate voluptate reprehenderit in consequat velit mollit sunt nostrud est voluptate. Occaecat cupidatat sint pariatur do ullamco eiusmod ex.</p>
+                            <p>Sint excepteur officia dolore cillum ad minim officia commodo sunt labore. Est quis proident sit fugiat Lorem fugiat irure id proident aliqua anim pariatur. Culpa nisi magna fugiat anim nostrud voluptate proident. Id occaecat nisi tempor amet eu ut. Et ipsum ullamco laboris adipisicing ex incididunt elit et consectetur duis. Proident in dolore adipisicing cillum tempor quis ipsum. Est ullamco in ad ex cupidatat dolore pariatur aliqua exercitation voluptate fugiat.</p>    
+                            <p>Elit aliqua reprehenderit culpa incididunt adipisicing ipsum. Elit ex minim nostrud commodo dolore aute ipsum officia. Nostrud ea aute voluptate commodo id eu dolore. Nostrud reprehenderit officia proident est dolore ad minim culpa labore excepteur aliqua cupidatat consequat. Quis et labore sint labore. Elit deserunt amet laboris eu ut sit in do proident sit qui nisi cillum consectetur.</p>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card konten-ketiga">
+            <div class="card-header" role="tab" id="kontakHeaderId">
+                <h2 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordianId" href="#kontakContentId" aria-expanded="true" aria-controls="kontakContentId">
+              Hubungi Kami
+            </a>
+                </h2>
+            </div>
+            <div id="kontakContentId" class="collapse in" role="tabpanel" aria-labelledby="kontakHeaderId">
+                <div class="card-body konten-ketiga">
+                    <div class="container-fluid konten" id="kontak"> 
+                        <div class="container" id = "kontak-content">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Nama Lengkap</label>
+                                    <input type="text" name="name" id="inpFullname" class="form-control" placeholder="Full Name" aria-describedby="helpId">
+                                    <small id="helpId" class="text-muted">* Wajib diisi</small>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="email">Alamat Email</label>
+                                      <input type="text" name="email" id="inpEmailAddress" class="form-control" placeholder="E-Mail" aria-describedby="helpId">
+                                      <small id="helpId" class="text-muted">* Wajib diisi</small>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="nomorHp">Nomor Telepon</label>
+                                      <input type="text" name="nomorHp" id="inpPhoneNumber" class="form-control" placeholder="Phone Number" aria-describedby="helpId">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="pesan">Pesan</label>
+                                    <textarea class="form-control" name="Message" id="inpMessage" rows="5"></textarea>
+                                  </div>
+                                  <button type="submit" class="btn btn-success">Submit</button>
+                            </form>
+                        </div>       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        $('#exampleModal').on('show.bs.modal', event => {
+            var button = $(event.relatedTarget);
+            var modal = $(this);
+            // Use above variables to manipulate the DOM
+            
+        });
+    </script>
+  </body>
+</html>
